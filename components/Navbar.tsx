@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { FiAlignJustify, FiAlignRight } from "react-icons/fi";
+import { hrtime } from "process";
 
 
 export default function Navbar() {
@@ -10,7 +11,10 @@ export default function Navbar() {
  const links = [
       { href: "/", label: "Home" },
       { href: "/Events", label: "Events" },
- 
+      {href: "/Seal", label: "Seal Application" },
+      { href: "/Awards", label: "Awards Nomination" },
+      { href: "/Investor", label: "Investor Portal" },
+
     ];
   return (
    <nav className="navbar bg-green-900 sticky top-0 z-[1000] shadow-lg px-6 py-4 flex justify-between items-center">

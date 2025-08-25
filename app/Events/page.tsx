@@ -123,7 +123,7 @@ export default function EventPage(){
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
               Join the biggest <span className="text-yellow-300">PollTrack & Business</span> event
             </h1>
-            <div className-="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+            <div className-="flex flex-col sm:flex-row items-center justify-center gap-4">
               <button className="bg-white text-purple-800 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">
                 Register
               </button>
