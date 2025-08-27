@@ -123,7 +123,7 @@ export default function EventPage(){
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
               Join the biggest <span className="text-yellow-300">PollTrack & Business</span> event
             </h1>
-            <div className-="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <button className="bg-white text-purple-800 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">
                 Register
               </button>
@@ -137,7 +137,7 @@ export default function EventPage(){
           <div className="lg:w-1/2 flex justify-center lg:justify-end">
                     <div className="relative w-full max-w-md lg:max-w-xl">
               <img
-                src="logo.jpg"
+                src="logo.png"
                 alt="2025 StarBrand Experience"
                 className="w-full h-auto rounded-3xl shadow-2xl transform rotate-3 scale-105"
            />
