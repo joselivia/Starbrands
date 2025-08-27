@@ -75,7 +75,8 @@ export default function HomePage() {
         </h2>
         <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl border-4 border-gray-100">
           <video
-            src="/videos/intro.mp4"
+            src="/Starleaders.mp4" autoPlay muted loop playsInline 
+
             controls
             className="w-full h-full object-cover"
           />

@@ -20,7 +20,7 @@ export default function Navbar() {
    <nav className="navbar bg-green-900 sticky top-0 z-[1000] shadow-lg px-6 py-4 flex justify-between items-center">
    <div className="text-2xl font-bold">
     <Image
-      src="/logo.jpg"
+      src="/logo.png"
       alt="Logo"    
       width={100}
       height={100}    
