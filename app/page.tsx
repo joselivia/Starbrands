@@ -145,7 +145,7 @@ export default function HomePage() {
             </div>
           </div>
           <a
-            href="#"
+  href="https://forms.gle/EcALtmhLy9YgvGio7"
             className="mt-12 inline-block bg-blue-700 hover:bg-blue-800 text-white font-semibold px-10 py-4 rounded-full shadow-lg transition-colors duration-300 transform hover:scale-105"
             data-aos="zoom-in"
             data-aos-delay="600"
@@ -224,7 +224,7 @@ export default function HomePage() {
             </div>
           </div>
           <a
-            href="#"
+              href="https://chat.whatsapp.com/CtJLgzBaJ1FLSixMdlPkIX?mode=ems_copy_t"
             className="mt-12 inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-10 py-4 rounded-full shadow-lg transition-colors duration-300 transform hover:scale-105"
             data-aos="zoom-in"
             data-aos-delay="800"
@@ -288,7 +288,7 @@ export default function HomePage() {
             </div>
           </div>
           <a
-            href="#"
+            href="https://wa.link/nrxdq1"
             className="mt-12 inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-10 py-4 rounded-full shadow-lg transition-colors duration-300 transform hover:scale-105"
             data-aos="zoom-in"
             data-aos-delay="600"
