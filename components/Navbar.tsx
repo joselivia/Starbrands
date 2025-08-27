@@ -8,10 +8,12 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const links = [
     { href: "/", label: "Home" },
-    { href: "/Events", label: "Events", disabled:true},
-  { href: "/Seal", label: "Seal Application", disabled: true },
-  { href: "/Awards", label: "Awards Nomination", disabled: true },
-  { href: "/Investor", label: "Investor Portal", disabled: true },
+  { href: "/About", label: "About Us" },
+    { href: "/ContactUs", label: "Contact US" },
+    { href: "/Events", label: "Events"},
+  { href: "/Seal", label: "Seal Application" },
+  { href: "/Awards", label: "Awards Nomination" },
+  { href: "/Investor", label: "Investor Portal" },
   ];
   return (
     <nav className="navbar bg-white  sticky top-0 z-[1000] shadow-lg px-6 py-4 flex justify-between items-center">
@@ -22,13 +24,11 @@ export default function Navbar() {
    <ul className="hidden md:flex gap-6 text-black font-medium">
   {links.map((link) => (
     <li key={link.href}>
-      {link.disabled ? (
-        <span className="text-gray-400 cursor-not-allowed">{link.label}</span>
-      ) : (
+   
         <Link href={link.href} className="transition-colors hover:text-red-500">
           {link.label}
         </Link>
-      )}
+ 
     </li>
   ))}
 </ul>
@@ -51,11 +51,6 @@ export default function Navbar() {
 <ul className="fixed top-20 right-0 w-2/3 h-[calc(100vh-5rem)] bg-white flex flex-col p-5 gap-6 z-50 overflow-y-auto">
   {links.map((link) => (
     <li key={link.href}>
-      {link.disabled ? (
-        <span className="bg-gray-300 p-2 rounded-md text-gray-500 cursor-not-allowed">
-          {link.label}
-        </span>
-      ) : (
         <Link
           href={link.href}
           onClick={() => setIsOpen(false)}
@@ -63,7 +58,7 @@ export default function Navbar() {
         >
           {link.label}
         </Link>
-      )}
+
     </li>
   ))}
 </ul>
