@@ -1,6 +1,8 @@
 'use client';
 import React from 'react';
 import './globals.css';
+import { MdEmail } from 'react-icons/md';
+import { FaPhoneAlt } from 'react-icons/fa';
 
 export default function HomePage() {
   return (
@@ -38,22 +40,22 @@ export default function HomePage() {
             data-aos-duration="1000"
           >
             <a
-              href="#seal"
+              href="https://wa.link/nrxdq1"
               className="bg-white text-blue-700 font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105"
             >
               Apply for Certification
             </a>
             <a
-              href="#awards"
+              href="https://forms.gle/EcALtmhLy9YgvGio7"
               className="bg-transparent border border-white text-white font-semibold px-8 py-3 rounded-full hover:bg-white hover:text-blue-700 transition-colors duration-300 transform hover:scale-105"
             >
               Nominate Your Brand
             </a>
             <a
-              href="#investor"
+              href="https://chat.whatsapp.com/CtJLgzBaJ1FLSixMdlPkIX?mode=ems_copy_t"
               className="bg-white text-blue-700 font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105"
             >
-              Explore Opportunities
+              Starbrands Connect Portal
             </a>
           </div>
         </div>
@@ -320,14 +322,14 @@ export default function HomePage() {
               <h3 className="text-xl font-semibold mb-2 text-blue-700">Office Address</h3>
               <p className="text-gray-600">Minet House, Processional Way (off Nyerere Rd), Nairobi</p>
             </div>
-            <div data-aos="fade-left" data-aos-duration="1000">
+            <div data-aos="fade-left" data-aos-duration="1000" >
               <h3 className="text-xl font-semibold mb-2 text-blue-700">General Inquiries</h3>
-              <p className="text-gray-600">Email: info@starbrandsawards.com</p>
-              <p className="text-gray-600">Phone: +254 728 80 22 22</p>
+              <a href='mailto:info@starbrandseastafrica.com' className="text-gray-600 flex items-center hover:text-blue-600 gap-2"><MdEmail /> info@starbrandseastafrica.com</a>
+              <a href="tel:+254728802222" className="text-gray-600 flex items-center hover:text-blue-600 gap-2 py-2"><FaPhoneAlt /> +254 728 802 222</a>
             </div>
             <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
               <h3 className="text-xl font-semibold mb-2 text-blue-700">Partnerships</h3>
-              <p className="text-gray-600">Email: partnerships@starbrandsawards.com</p>
+              <a href='mailto:partnerships@starbrandseastafrica.com' className="text-gray-600 flex items-center hover:text-blue-600 gap-2"><MdEmail /> partnerships@starbrandseastafrica.com</a>
             </div>
             <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
               <h3 className="text-xl font-semibold mb-2 text-blue-700">Social Media</h3>

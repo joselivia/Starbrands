@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const links = [
     { href: "/", label: "Home" },
-    { href: "/Events", label: "Events" },
+    { href: "/Events", label: "Events", disabled:true},
   { href: "/Seal", label: "Seal Application", disabled: true },
   { href: "/Awards", label: "Awards Nomination", disabled: true },
   { href: "/Investor", label: "Investor Portal", disabled: true },
