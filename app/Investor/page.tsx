@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-
-
 export default function StarbrandsConnectPage() {
   return (
     <div className="bg-white text-gray-900 p-6 md:p-12 mx-auto">

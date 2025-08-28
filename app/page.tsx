@@ -1,8 +1,6 @@
 'use client';
 import React from 'react';
 import './globals.css';
-import { MdEmail } from 'react-icons/md';
-import { FaPhoneAlt } from 'react-icons/fa';
 
 export default function HomePage() {
   return (
