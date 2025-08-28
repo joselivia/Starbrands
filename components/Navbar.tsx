@@ -9,7 +9,7 @@ export default function Navbar() {
   const links = [
     { href: "/", label: "Home" },
     { href: "/About", label: "About Us" },
-      { href: "/Events", label: "Events" },
+      { href: "https://starbrands-awards.odoo.com/event/starbrands-awards-2025-1/register", label: "Events" },
     { href: "/Seal", label: "Seal Application" },
     { href: "/Awards", label: "Awards Nomination" },
     { href: "/Investor", label: "Investor Portal" },
