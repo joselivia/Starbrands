@@ -197,7 +197,7 @@ export default function EventPage() {
   {event.status || "Open"}
 </div>
 <Link
-  href="#"
+  href="Events/register"
   className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold py-2 px-6 rounded-full shadow-md hover:from-purple-700 hover:to-indigo-700 hover:scale-105 hover:shadow-lg transition-all duration-300"
 >
   <span className="text-sm">Register</span>
